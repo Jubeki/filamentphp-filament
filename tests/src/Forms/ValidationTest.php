@@ -274,7 +274,6 @@ test('the `in()` rule behaves the same as Laravel\'s', function (?string $input,
 test('the `in()` rule can be conditionally validated', function () {
     $fails = [];
 
-    
     $fieldName = Str::random();
 
     try {
